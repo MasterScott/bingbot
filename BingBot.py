@@ -58,7 +58,7 @@ def bot():
             input_element.send_keys(username)
             input_element = chrome.find_element_by_id("idSIButton9").click()
             time.sleep(10)
-            input_element = chrome.find_element_by_name(password)
+            input_element = chrome.find_element_by_id("i0118")
             input_element.send_keys(password)
             input_element = chrome.find_element_by_id("idSIButton9").click()
             time.sleep(10)
